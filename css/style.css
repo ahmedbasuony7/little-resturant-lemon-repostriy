@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ecefee;
+  font-family: 'Saira Condensed', 'Poppins', 'Alex Brush', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+.navbar {
+  background-color: #495d56;
+  margin-top: 2%;
+  border-radius: 1rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 15px;
+  margin: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li a:hover {
+  color: #f4cd14;
+}
+.carousel {
+  background-image: url(/img/carousel.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  margin-top: 1em;
+  height: 250px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: flex-end;
+}
+.carousel h1 {
+  color: #f4cd14;
+  font-family: 'Saira Condensed';
+  margin-left: 2%;
+}
+.carousel p {
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  margin-left: 2%;
+  width: 50%;
+}
+
+.content-items {
+  margin-top: 1em;
+  display: flex;
+  column-gap: 10px;
+}
+.content-item {
+  flex: 1;
+  background-color: #f8f6d6;
+  border-radius: 1rem;
+  box-shadow: 7px 8px 14px -1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 7px 8px 14px -1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 7px 8px 14px -1px rgba(0, 0, 0, 0.36);
+}
+.content-item h2 {
+  font-family: 'Alex Brush';
+  margin-left: 20px;
+  margin-top: 1em;
+}
+.content-item p {
+  font-family: 'Poppins';
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 1em;
+}
+.content-item a {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.content-item img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-item ul {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.content-item ul li {
+  list-style-type: none;
+}
+footer {
+  margin-top: 2em;
+  display: flex;
+}
+footer div {
+  flex: 1;
+}
+
+footer div img {
+  height: 200px;
+}
+footer div p {
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  header > img {
+    height: 100px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .carousel p {
+    font-size: 12px;
+  }
+  footer div img {
+    height: 100px;
+  }
+}
